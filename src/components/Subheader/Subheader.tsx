@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import { productos } from "../../utils/hornos.js";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import pizza from "../../assets/images/imagen-pizza-wab.png";
 import "./Subheader.css";
 
 interface Producto {
@@ -35,10 +36,31 @@ export function Subheader(): JSX.Element {
   };
   return (
     <>
+      {/* FIRST PART/IMAGE */}
+      <div className="subHeader-content_imag2">
+        <div>
+          <h2 className="subHeader-quienesSomos_title">¿Quiénes somos?</h2>
+          <h3 className="subHeader-quienesSomos_subtitle">
+            Somos una empresa familair
+          </h3>
+
+          <p className="subHeader-quienesSomos_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            veniam saepe! Cumque nulla aliquam rerum saepe minima quaerat aut
+            maxime quod eos officia veritatis quis laudantium, ipsa magni illo
+            at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            veniam saepe! Cumque nulla aliquam rerum saepe minima quaerat aut
+            maxime quod eos officia veritatis quis laudantium, ipsa magni illo
+            at.
+          </p>
+        </div>
+      </div>
+      {/* SECOND PART/IMAGE */}
       <div className="content-subHeader">
         <div className="subHeader-content_backLine">
           <h1>EL MEJOR SECRETO DE LA COMIDA AHUMADA</h1>
         </div>
+
         <div className="subHeader-content_carrousel">
           <Carousel responsive={responsive}>
             {myProducts?.length ? (
@@ -60,6 +82,32 @@ export function Subheader(): JSX.Element {
               <h1>NOO HAY NADA</h1>
             )}
           </Carousel>
+        </div>
+      </div>
+      {/* Thrist part */}
+      <div className="subHeader-content_line_recipes">
+        <h1>Nuestras recetas</h1>
+      </div>
+      <div className="subHeaer-content_thristPart">
+        <div className="subHeader-content_images_blackAndWhite">
+          <div className="subHeader-content_image_blackAndWhite">
+            <img src={pizza} alt="Foods images"></img>
+          </div>
+          <div className="subHeader-content_image_blackAndWhite">
+            <img src={pizza} alt="Foods images"></img>
+          </div>
+          <div className="subHeader-content_image_blackAndWhite">
+            <img src={pizza} alt="Foods images"></img>
+          </div>
+          <div className="subHeader-content_image_blackAndWhite">
+            <img src={pizza} alt="Foods images"></img>
+          </div>
+          <div className="subHeader-content_image_blackAndWhite">
+            <img src={pizza} alt="Foods images"></img>
+          </div>
+          <div className="subHeader-content_image_blackAndWhite">
+            <img src={pizza} alt="Foods images"></img>
+          </div>
         </div>
       </div>
     </>

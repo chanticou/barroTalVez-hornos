@@ -1,6 +1,6 @@
 .content-subHeader {
-  background-image: url("../../assets/images/ladrillo.jpg");
-  height: 500px;
+  background-image: url("../../assets/images/backcground-barro.jpg");
+  height: 548;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,10 +8,26 @@
 
 /*BLACK LINE*/
 .subHeader-content_backLine {
-  background-color: black;
-  opacity: 0.9;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 23%,
+    rgba(6, 6, 6, 1) 31%,
+    rgba(14, 14, 14, 1) 40%,
+    rgba(20, 20, 20, 1) 48%,
+    rgba(26, 26, 26, 1) 56%,
+    rgba(39, 39, 39, 1) 67%,
+    rgba(54, 54, 54, 1) 78%,
+    rgba(73, 73, 73, 1) 85%,
+    rgba(86, 86, 86, 1) 88%,
+    rgba(86, 86, 86, 1) 93%,
+    rgba(101, 101, 101, 1) 100%,
+    rgba(101, 101, 101, 1) 100%
+  );
   color: #fff;
   padding: 20px 0;
+  opacity: 0.8;
 }
 
 .subHeader-content_backLine h1 {
@@ -20,7 +36,7 @@
 }
 
 .subHeader-content_carrousel {
-  margin-top: 50px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -30,7 +46,8 @@
   max-width: 100%;
   max-height: 100%;
   margin: auto;
-  border-radius: 5px;
+  border-radius: 10px;
+
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.9);
 }
 
@@ -42,7 +59,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
+  border-radius: 10px;
+
   z-index: 1;
   cursor: pointer;
 }
@@ -61,11 +79,87 @@
 }
 
 .subHeader-image_carrousel {
-  width: 300px;
-  border-radius: 5px;
+  width: 330px;
+  height: 400px;
+  border-radius: 10px;
 }
 
 .subHeader-title {
   margin: auto;
   color: #fff;
+}
+
+/*SEGUNDA IMAGEN*/
+.subHeader-content_imag2 {
+  background-image: url("../../assets/images/fuego.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subHeader-quienesSomos_title {
+  color: #ffc7c7;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.9);
+  width: 450px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+}
+.subHeader-quienesSomos_subtitle {
+  color: #faadad;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.9);
+  width: 450px;
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.subHeader-quienesSomos_text {
+  color: #ffffff;
+  width: 450px;
+  text-align: center;
+  text-align: justify;
+  padding: 0 20px;
+  line-height: 30px;
+}
+
+/* THRIST PART IMAGES */
+.subHeader-content_images_blackAndWhite {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(66, 66, 66);
+  opacity: 0.9;
+  padding: 20px 0;
+}
+
+.subHeader-content_image_blackAndWhite {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.subHeader-content_image_blackAndWhite img {
+  width: 333px;
+  height: 328px;
+}
+
+/*BLACK LINE*/
+.subHeader-content_line_recipes {
+  background: rgb(105, 105, 105);
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+  /* opacity: 0.5; */
+}
+.subHeader-content_line_recipes h1 {
+  color: #fff;
+  padding: 20px 0;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.9);
+  text-align: center;
 }

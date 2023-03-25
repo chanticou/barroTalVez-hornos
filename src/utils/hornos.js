@@ -6,7 +6,7 @@ export const productos = [
     precio: 15000,
     disponibilidad: true,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const productos = [
     precio: 20000,
     disponibilidad: false,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const productos = [
     precio: 8000,
     disponibilidad: true,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 4,
@@ -30,7 +30,7 @@ export const productos = [
     precio: 12000,
     disponibilidad: false,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ export const productos = [
     precio: 25000,
     disponibilidad: true,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 6,
@@ -46,7 +46,7 @@ export const productos = [
     precio: 15000,
     disponibilidad: false,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 7,
@@ -54,7 +54,7 @@ export const productos = [
     precio: 18000,
     disponibilidad: true,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 8,
@@ -62,7 +62,7 @@ export const productos = [
     precio: 30000,
     disponibilidad: false,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 9,
@@ -70,7 +70,7 @@ export const productos = [
     precio: 40000,
     disponibilidad: true,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
   {
     id: 10,
@@ -78,6 +78,6 @@ export const productos = [
     precio: 10000,
     disponibilidad: false,
     imagen:
-      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679573739/horno-barro_jspj3c.jpg",
+      "https://res.cloudinary.com/dg05pzjsq/image/upload/v1679772256/horno-barro_3_kufnul.jpg",
   },
 ];

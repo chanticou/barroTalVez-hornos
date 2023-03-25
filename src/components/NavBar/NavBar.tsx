@@ -1,6 +1,7 @@
-import "animate.css";
 import instagram from "../../assets/images/instagram.png";
 import facebook from "../../assets/images/facebook.png";
+import { Link } from "react-router-dom";
+import "animate.css";
 import "./NavBar.css";
 
 export function NavBar(): JSX.Element {
@@ -31,7 +32,35 @@ export function NavBar(): JSX.Element {
         </div>
         <div>
           <ul className="navBar-content_ul">
-            <button className="glow-on-hover" type="button">
+            <div className="navBar-ul_1">
+              <Link className="LINK" to="/">
+                <div className="box-1">
+                  <div className="btn btn-one">
+                    <span>Home</span>
+                  </div>
+                </div>
+              </Link>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>Creado</span>
+                </div>
+              </div>
+            </div>
+            <div className="navBar-ul_2">
+              <Link className="LINK" to="/contact">
+                <div className="box-1">
+                  <div className="btn btn-one">
+                    <span>Contacto</span>
+                  </div>
+                </div>
+              </Link>
+              <div className="box-1">
+                <div className="btn btn-one">
+                  <span>Hornos</span>
+                </div>
+              </div>
+            </div>
+            {/* <button className="glow-on-hover" type="button">
               Nosotros
             </button>
             <button className="glow-on-hover" type="button">
@@ -39,7 +68,7 @@ export function NavBar(): JSX.Element {
             </button>
             <button className="glow-on-hover" type="button">
               Nosotros
-            </button>
+            </button> */}
           </ul>
         </div>
       </div>

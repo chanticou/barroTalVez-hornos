@@ -1,0 +1,90 @@
+.content_form {
+  background-image: url("../../assets/images//arcilla4.jpg");
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  margin: auto;
+  width: 585px;
+  border-radius: 20px;
+  padding: 50px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_name {
+  color: aliceblue;
+  padding: 10px;
+}
+
+.form_email {
+  color: aliceblue;
+  padding: 10px;
+}
+
+.label_form {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.form_error {
+  color: red;
+}
+
+.input_form {
+  padding: 15px 18px;
+  font-size: 1.2rem;
+  background: #2b2b2b;
+  border-color: transparent;
+}
+
+.form_submit_button {
+  background-color: #e50914;
+  padding: 10px 30px;
+  border-color: #e50914;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 10px;
+}
+.form_submit_button:hover {
+  opacity: 0.8;
+}
+
+.content_name_email {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.form_message {
+  margin-top: 20px;
+  width: 540px;
+  padding: 20px;
+  height: 163px;
+  background: #2b2b2b;
+  color: rgb(21, 22, 22);
+  font-size: 1.2rem;
+  border-color: transparent;
+}
+
+.content_contact-me {
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+}
+
+.contact-me {
+  color: #e50914;
+  letter-spacing: 30px;
+  font-size: 2rem;
+  margin: auto;
+  font-family: "Bebas Neue", cursive;
+  /* background: rgb(20, 20, 20); */
+}
