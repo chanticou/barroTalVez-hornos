@@ -38,12 +38,12 @@ export function Subheader(): JSX.Element {
     <>
       {/* FIRST PART/IMAGE */}
       <div className="subHeader-content_imag2">
-        <div>
+        <div className="subHeader-content_titles">
           <h2 className="subHeader-quienesSomos_title">¿Quiénes somos?</h2>
           <h3 className="subHeader-quienesSomos_subtitle">
             Somos una empresa familair
           </h3>
-
+          {/* <div className="subHeader-quienesSomos_text"></div> */}
           <p className="subHeader-quienesSomos_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
             veniam saepe! Cumque nulla aliquam rerum saepe minima quaerat aut
