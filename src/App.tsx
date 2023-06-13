@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home/Home";
 import { Form } from "./components/Form/Form";
 import "./App.css";
+import "aos/dist/aos.css";
 
 function App() {
   return (

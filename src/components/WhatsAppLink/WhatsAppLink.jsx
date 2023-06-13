@@ -3,7 +3,7 @@ import whatsAppLogo from "../../assets/images/whatsAppLogo.png";
 import "./WhatsAppLink.css";
 
 export const WhatsAppLink = () => {
-  const phoneNumber = "1568824488"; // número de teléfono
+  const phoneNumber = "1528849705"; // número de teléfono
 
   const url = `https://wa.me/${phoneNumber}`;
 
