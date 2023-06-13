@@ -8,23 +8,6 @@
 
 /*BLACK LINE*/
 .subHeader-content_backLine {
-  /* background: rgb(0, 0, 0);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 23%,
-    rgba(6, 6, 6, 1) 31%,
-    rgba(14, 14, 14, 1) 40%,
-    rgba(20, 20, 20, 1) 48%,
-    rgba(26, 26, 26, 1) 56%,
-    rgba(39, 39, 39, 1) 67%,
-    rgba(54, 54, 54, 1) 78%,
-    rgba(73, 73, 73, 1) 85%,
-    rgba(86, 86, 86, 1) 88%,
-    rgba(86, 86, 86, 1) 93%,
-    rgba(101, 101, 101, 1) 100%,
-    rgba(101, 101, 101, 1) 100%
-  ); */
   padding: 25px 0px 0px 0px;
   opacity: 0.8;
 }
@@ -65,7 +48,6 @@
   border-radius: 10px;
   opacity: 0;
   transition: opacity 0.4s ease;
-  cursor: pointer;
 }
 
 .subHeader-content_image:hover::before {
@@ -74,8 +56,6 @@
 
 .subHeader-content_image::after {
   content: "NOMBRE HORNO";
-  cursor: pointer;
-
   position: absolute;
   top: 50%;
   left: 50%;

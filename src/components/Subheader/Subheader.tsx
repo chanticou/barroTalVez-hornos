@@ -8,13 +8,6 @@ import bb1 from "../../assets/images/bb1.jpg";
 import bb2 from "../../assets/images/bb2.jpg";
 import bb3 from "../../assets/images/bb3.jpg";
 import bb4 from "../../assets/images/bb4.jpg";
-import AOS from "aos";
-
-// import pan from "../../assets/images/pan.png";
-// import lasaña from "../../assets/images/lasaña.png";
-
-// import hamburguer from "../../assets/images/hambruguer.png";
-// import BaW3 from "../../assets/images/BaW3-1.jpg";
 
 import "./Subheader.css";
 
@@ -28,10 +21,6 @@ interface Producto {
 
 export function Subheader(): JSX.Element {
   const [myProducts, setmyProducts] = useState<Producto[]>(productos);
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
 
   const responsive = {
     superLargeDesktop: {
@@ -58,25 +47,21 @@ export function Subheader(): JSX.Element {
       <div className="subHeader-content_imag2">
         <div className="subHeader-content_titles">
           <div className="content_right">
-            <div data-aos="fade-up" data-aos-duration="3000">
-              <h2 className="subHeader-quienesSomos_title">¿Quiénes somos?</h2>
-            </div>
-            <div data-aos="fade-up" data-aos-duration="3000">
-              <h3 className="subHeader-quienesSomos_subtitle">
-                Somos una empresa familair
-              </h3>
-            </div>
-            <div data-aos="fade-down" data-aos-duration="3000">
-              <p className="subHeader-quienesSomos_text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-                veniam saepe! Cumque nulla aliquam rerum saepe minima quaerat
-                aut maxime quod eos officia veritatis quis laudantium, ipsa
-                magni illo at. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Minus, veniam saepe! Cumque nulla aliquam
-                rerum saepe minima quaerat aut maxime quod eos officia veritatis
-                quis laudantium, ipsa magni illo at.
-              </p>
-            </div>
+            <h2 className="subHeader-quienesSomos_title">¿Quiénes somos?</h2>
+
+            <h3 className="subHeader-quienesSomos_subtitle">
+              Somos una empresa familair
+            </h3>
+
+            <p className="subHeader-quienesSomos_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+              veniam saepe! Cumque nulla aliquam rerum saepe minima quaerat aut
+              maxime quod eos officia veritatis quis laudantium, ipsa magni illo
+              at. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Minus, veniam saepe! Cumque nulla aliquam rerum saepe minima
+              quaerat aut maxime quod eos officia veritatis quis laudantium,
+              ipsa magni illo at.
+            </p>
           </div>
         </div>
       </div>
@@ -117,34 +102,23 @@ export function Subheader(): JSX.Element {
         <div className="subHeaer-content_thristPart">
           <div className="subHeader-content_images_blackAndWhite">
             <div className="subHeader-content_image_blackAndWhite">
-              <div data-aos="flip-left" data-aos-duration="2000">
-                <img src={barbacue} alt="Foods images"></img>
-              </div>
+              <img src={barbacue} alt="Foods images"></img>
+            </div>
+
+            <div className="subHeader-content_image_blackAndWhite">
+              <img src={bb1} alt="Foods images"></img>
             </div>
             <div className="subHeader-content_image_blackAndWhite">
-              <div data-aos="flip-left" data-aos-duration="2000">
-                <img src={bb1} alt="Foods images"></img>
-              </div>
+              <img src={chicken} alt="Foods images"></img>
             </div>
             <div className="subHeader-content_image_blackAndWhite">
-              <div data-aos="flip-left" data-aos-duration="2000">
-                <img src={chicken} alt="Foods images"></img>
-              </div>
+              <img src={bb2} alt="Foods images"></img>
             </div>
             <div className="subHeader-content_image_blackAndWhite">
-              <div data-aos="flip-right">
-                <img src={bb2} alt="Foods images"></img>
-              </div>
+              <img src={bb4} alt="Foods images"></img>
             </div>
             <div className="subHeader-content_image_blackAndWhite">
-              <div data-aos="flip-right">
-                <img src={bb4} alt="Foods images"></img>
-              </div>
-            </div>
-            <div className="subHeader-content_image_blackAndWhite">
-              <div data-aos="flip-right">
-                <img src={bb3} alt="Foods images"></img>
-              </div>
+              <img src={bb3} alt="Foods images"></img>
             </div>
           </div>
         </div>
